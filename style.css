@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(40deg, rgb(14, 18, 100), rgb(114, 18, 100));
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+
+nav{
+    color: white;
+}
+
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.container_practicas div{
+    border: 3px solid gainsboro;
+    border-radius: 10px;
+    width: 30%; 
+    margin: 1%;
+    float: left;
+}
+
+div.columna:hover{
+    background-color: rgb(206, 203, 203);
+}    
+
+div h4{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div ul{
+    list-style-type: circle;
+}
+
+a{
+    font-size: 18px;
+}
+
+a:link{
+    background-color: rgb(255, 255, 255);;
+    color: rgb(136, 109, 109);
+}
+
+a:visited{
+    background-color: rgb(136, 109, 109);
+    color: gainsboro;
+}
+
+.container_practicas{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer div{
+
+    width: 100%;
+    margin-left: 0;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+span.cabecera{
+    position: relative;
+    margin-left: 89%;
+}

@@ -73,10 +73,14 @@ footer{
 
 span.cabecera{
     position: relative;
-    margin-left: 633px;
+    margin-left: 1500px;
 }
 
 div.columna_ultima{
     position: relative;
-    margin-left: 300px;
+    margin-left: 520px;
+    margin-top: 00px;
 }
+
+div.columna_ultima:hover{
+    background-color: rgb(206, 203, 203);
